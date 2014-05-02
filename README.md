@@ -185,6 +185,14 @@ Default: `""`
 
 The path to prepend to all source files in the source map. This option is only used in conjunction with the `includeSourceMap` option.
 
+### scriptRoot
+Type: `String`
+
+Default: `""`
+Specifying a script root will strip this value from the path names included in the source map. This allows you to use source maps when the base path of your project is not the same as the web root. This option is only used in conjunction with the `includeSourceMap` option.
+
+
+
 ### separator
 Type: `String`
 
